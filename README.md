@@ -15,6 +15,8 @@ Para executar esse projeto com o expo (https://docs.expo.dev/get-started/install
 2. Git - https://git-scm.com/downloads
 3. Visual Studio Code - https://code.visualstudio.com/download
 
+## Imagens de Preview
+![Alt text](<Screenshot 2023-09-15 165154.png>)
 
 ## Start do Projeto
 
@@ -48,3 +50,5 @@ Obs.: No caso de incompatibildiade com a versão do Node.js execute `npm install
 
 8. Troubleshooting:
 `npm start --reset-cache`
+
+
