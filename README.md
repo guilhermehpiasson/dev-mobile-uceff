@@ -43,6 +43,7 @@ Obs.: No caso de incompatibildiade com a versão do Node.js execute `npm install
 
 7. Execute o expo:
 `npx expo start`
+
 ![Alt text](<Screenshot 2023-09-15 155056.png>)
 
 8. Troubleshooting:

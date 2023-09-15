@@ -4,6 +4,7 @@ import { Camera } from 'expo-camera';
 import { FontAwesome } from '@expo/vector-icons';
 
 //import Toast from 'react-native-simple-toast'; // Import Toast
+import FlashMessage, { showMessage } from 'react-native-flash-message';
 
 export default function App(){
 
@@ -40,6 +41,11 @@ export default function App(){
                 //console.log(data);
                 console.log(data);
                 //Toast.show('Foto capturada', Toast.LONG);
+                showMessage({
+                    message: 'Foto capturada',
+                    type: 'success', // 'success', 'info', 'warning', or 'danger'
+                    duration: 5000, // 5000 milissegundos (5 segundos)
+                });
             }
         }catch(error){
             console.log(error);
@@ -85,6 +91,7 @@ export default function App(){
 				        transparent={false}
 				        visible={open}
 				    >
+                        <FlashMessage position="top" />
 				        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', margin: 20 }}>
 				            <TouchableOpacity 
 				                style={{ margin: 10}} 
@@ -103,7 +110,7 @@ export default function App(){
 				        </View>
 				    </Modal>
 				)}
-
+            
         </SafeAreaView>
     );
 }
