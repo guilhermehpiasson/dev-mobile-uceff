@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView, Modal, Image} f
 import { Camera } from 'expo-camera';
 import { FontAwesome } from '@expo/vector-icons';
 
-import Toast from 'react-native-simple-toast'; // Import Toast
+//import Toast from 'react-native-simple-toast'; // Import Toast
 
 export default function App(){
 
@@ -39,7 +39,7 @@ export default function App(){
                 setOpen(true);
                 //console.log(data);
                 console.log(data);
-                Toast.show('Foto capturada', Toast.LONG);
+                //Toast.show('Foto capturada', Toast.LONG);
             }
         }catch(error){
             console.log(error);
