@@ -15,6 +15,14 @@ Para executar esse projeto com o expo (https://docs.expo.dev/get-started/install
 2. Git - https://git-scm.com/downloads
 3. Visual Studio Code - https://code.visualstudio.com/download
 
+E também um app instalado no seu celular, chamado Expo Go:
+
+1. (Play Store) https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
+![Alt text](<Screenshot 2023-09-15 185003.png>)
+
+2. (Apple Store) https://apps.apple.com/br/app/expo-go/id982107779
+![Alt text](<Screenshot 2023-09-15 185116-1.png>)
+
 ## Imagens de Preview
 ![Alt text](<Screenshot 2023-09-15 165154.png>)
 
